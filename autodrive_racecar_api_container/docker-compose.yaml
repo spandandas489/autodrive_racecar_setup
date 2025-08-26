@@ -1,0 +1,32 @@
+services:
+  roboracer:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: roboracer_dev
+    network_mode: host
+    ipc: host
+    privileged: true
+
+    tty: true
+    stdin_open: true
+
+    environment:
+      - DISPLAY=${DISPLAY}
+
+    volumes:
+      - /tmp/.X11-unix:/tmp/.X11-unix:rw
+      - ./ros2_laser_scan_matcher:/home/autodrive_devkit/ros2_laser_scan_matcher:rw
+      - ./ros2_laser_scan_matcher_local/include/csm:/usr/local/include/csm:rw
+#      - ./ros2_laser_scan_matcher_local/lib:/usr/local/lib:rw
+      - ./ros2_laser_scan_matcher_local/include/gsl_eigen:/usr/local/include/gsl_eigen:rw
+      - ./ros2_laser_scan_matcher_local/share/csm:/usr/local/share/csm:rw
+      - ./ros2_laser_scan_matcher_local/share/ament_index/resource_index/package_run_dependencies/:/usr/local/share/ament_index/resource_index/package_run_dependencies/csm:rw
+      - ./ros2_laser_scan_matcher_local/share/ament_index/resource_index/parent_prefix_path/:/usr/local/share/ament_index/resource_index/parent_prefix_path/csm:rw
+
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - capabilities: [gpu]
+
