@@ -10,13 +10,13 @@ source /opt/ros/humble/setup.bash
 cd /home/autodrive_devkit
 
 # Clone ros2_laser_scan_matcher if missing
-if [ ! -d "ros2_laser_scan_matcher/.git" ]; then
+if [ ! -d "ros2_laser_scan_matcher/" ]; then
   echo "Cloning main Repo"
   git clone https://github.com/AnshumaanMishra/ros2_laser_scan_matcher.git
 fi
 
 # Clone and build csm if missing
-if [ ! -d "ros2_laser_scan_matcher/src/csm/.git" ]; then
+if [ ! -d "ros2_laser_scan_matcher/src/csm/" ]; then
   echo "Cloning CSM repo"
   source /opt/ros/humble/setup.bash
 fi
