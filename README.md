@@ -34,16 +34,22 @@ cd ros2_laser_scan_matcher/src/csm/build
 cmake ..
 make
 make install
+
 cd ../..
+
 cd new-tf-topic
 colcon build --symlink-install
 source ./install/setup.bash
-cd ../..
+
+cd ..
+
 cd ydlidar_ros2_ws/src/YDLidar-SDK/build
 cmake ..
 make
 make install
+
 cd ../../ydlidar_ros2_driver
+
 colcon build --symlink-install
 source ./install/setup.bash
 cd ../../../..
