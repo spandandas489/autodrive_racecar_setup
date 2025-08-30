@@ -18,7 +18,12 @@ $ bash
 $ ./start.sh
 
 ```
-4. In another terminal, run:
+Run this in a new terminal:
+```
+xhost local:root
+```
+
+6. In another terminal, run:
 ```
 
 $ docker exec -it roboracer_dev bash
