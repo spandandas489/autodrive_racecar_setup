@@ -12,7 +12,7 @@ cd /home/autodrive_devkit
 # Clone ros2_laser_scan_matcher if missing
 if [ ! -d "ros2_laser_scan_matcher/.git" ]; then
   echo "Cloning main Repo"
-  git clone https://github.com/AlexKaravaev/ros2_laser_scan_matcher.git
+  git clone https://github.com/AnshumaanMishra/ros2_laser_scan_matcher.git
 fi
 
 # Clone and build csm if missing
@@ -24,7 +24,7 @@ fi
 # Build ROS 2 package only if not already installed
 if [ ! -f "ros2_laser_scan_matcher/install/setup.bash" ]; then
   cd ros2_laser_scan_matcher/src
-  git clone https://github.com/AlexKaravaev/csm.git
+  git clone https://github.com/AnshumaanMishra/csm.git
   cd csm
   mkdir -p build && cd build
   cmake ..

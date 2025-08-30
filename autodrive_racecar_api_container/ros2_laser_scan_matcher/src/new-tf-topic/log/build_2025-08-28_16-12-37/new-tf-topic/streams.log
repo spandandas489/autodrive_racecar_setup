@@ -1,0 +1,71 @@
+[0.010s] Invoking command in '/home/autodrive_devkit/ros2_laser_scan_matcher/src/new-tf-topic/build/new-tf-topic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/autodrive_devkit/install/autodrive_roboracer:/opt/ros/humble /usr/bin/cmake /home/autodrive_devkit/ros2_laser_scan_matcher/src/new-tf-topic -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/autodrive_devkit/ros2_laser_scan_matcher/src/new-tf-topic/install/new-tf-topic
+[0.057s] -- The C compiler identification is GNU 11.4.0
+[0.137s] -- The CXX compiler identification is GNU 11.4.0
+[0.142s] -- Detecting C compiler ABI info
+[0.194s] -- Detecting C compiler ABI info - done
+[0.201s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.201s] -- Detecting C compile features
+[0.201s] -- Detecting C compile features - done
+[0.204s] -- Detecting CXX compiler ABI info
+[0.262s] -- Detecting CXX compiler ABI info - done
+[0.267s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.267s] -- Detecting CXX compile features
+[0.267s] -- Detecting CXX compile features - done
+[0.270s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.390s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.438s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.462s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.495s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.499s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.507s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.517s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.529s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.562s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.564s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.636s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.658s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.694s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.702s] -- Looking for pthread.h
+[0.761s] -- Looking for pthread.h - found
+[0.762s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.816s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.817s] -- Found Threads: TRUE  
+[0.853s] -- Found tf2: 0.25.12 (/opt/ros/humble/share/tf2/cmake)
+[0.871s] -- Found tf2_ros: 0.25.12 (/opt/ros/humble/share/tf2_ros/cmake)
+[0.934s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.000s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.000s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/autodrive_devkit/ros2_laser_scan_matcher/src/new-tf-topic/include>
+[1.000s] -- Configured cppcheck exclude dirs and/or files: 
+[1.001s] -- Added test 'lint_cmake' to check CMake code style
+[1.004s] -- Added test 'uncrustify' to check C / C++ code style
+[1.004s] -- Configured uncrustify additional arguments: 
+[1.005s] -- Added test 'xmllint' to check XML markup files
+[1.006s] -- Configuring done
+[1.013s] -- Generating done
+[1.016s] -- Build files have been written to: /home/autodrive_devkit/ros2_laser_scan_matcher/src/new-tf-topic/build/new-tf-topic
+[1.023s] Invoked command in '/home/autodrive_devkit/ros2_laser_scan_matcher/src/new-tf-topic/build/new-tf-topic' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/autodrive_devkit/install/autodrive_roboracer:/opt/ros/humble /usr/bin/cmake /home/autodrive_devkit/ros2_laser_scan_matcher/src/new-tf-topic -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/autodrive_devkit/ros2_laser_scan_matcher/src/new-tf-topic/install/new-tf-topic
+[1.024s] Invoking command in '/home/autodrive_devkit/ros2_laser_scan_matcher/src/new-tf-topic/build/new-tf-topic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/autodrive_devkit/install/autodrive_roboracer:/opt/ros/humble /usr/bin/cmake --build /home/autodrive_devkit/ros2_laser_scan_matcher/src/new-tf-topic/build/new-tf-topic -- -j12 -l12
+[1.064s] [ 50%] [32mBuilding CXX object CMakeFiles/frame_publisher_node.dir/src/frame_publisher_node.cpp.o[0m
+[4.070s] [100%] [32m[1mLinking CXX executable frame_publisher_node[0m
+[4.225s] [100%] Built target frame_publisher_node
+[4.235s] Invoked command in '/home/autodrive_devkit/ros2_laser_scan_matcher/src/new-tf-topic/build/new-tf-topic' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/autodrive_devkit/install/autodrive_roboracer:/opt/ros/humble /usr/bin/cmake --build /home/autodrive_devkit/ros2_laser_scan_matcher/src/new-tf-topic/build/new-tf-topic -- -j12 -l12
+[4.242s] Invoking command in '/home/autodrive_devkit/ros2_laser_scan_matcher/src/new-tf-topic/build/new-tf-topic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/autodrive_devkit/install/autodrive_roboracer:/opt/ros/humble /usr/bin/cmake --install /home/autodrive_devkit/ros2_laser_scan_matcher/src/new-tf-topic/build/new-tf-topic
+[4.248s] -- Install configuration: ""
+[4.248s] -- Execute custom install script
+[4.249s] -- Symlinking: /home/autodrive_devkit/ros2_laser_scan_matcher/src/new-tf-topic/install/new-tf-topic/lib/new-tf-topic/frame_publisher_node
+[4.256s] -- Symlinking: /home/autodrive_devkit/ros2_laser_scan_matcher/src/new-tf-topic/install/new-tf-topic/share/ament_index/resource_index/package_run_dependencies/new-tf-topic
+[4.264s] -- Symlinking: /home/autodrive_devkit/ros2_laser_scan_matcher/src/new-tf-topic/install/new-tf-topic/share/ament_index/resource_index/parent_prefix_path/new-tf-topic
+[4.270s] -- Symlinking: /home/autodrive_devkit/ros2_laser_scan_matcher/src/new-tf-topic/install/new-tf-topic/share/new-tf-topic/environment/ament_prefix_path.sh
+[4.276s] -- Symlinking: /home/autodrive_devkit/ros2_laser_scan_matcher/src/new-tf-topic/install/new-tf-topic/share/new-tf-topic/environment/ament_prefix_path.dsv
+[4.284s] -- Symlinking: /home/autodrive_devkit/ros2_laser_scan_matcher/src/new-tf-topic/install/new-tf-topic/share/new-tf-topic/environment/path.sh
+[4.292s] -- Symlinking: /home/autodrive_devkit/ros2_laser_scan_matcher/src/new-tf-topic/install/new-tf-topic/share/new-tf-topic/environment/path.dsv
+[4.299s] -- Symlinking: /home/autodrive_devkit/ros2_laser_scan_matcher/src/new-tf-topic/install/new-tf-topic/share/new-tf-topic/local_setup.bash
+[4.305s] -- Symlinking: /home/autodrive_devkit/ros2_laser_scan_matcher/src/new-tf-topic/install/new-tf-topic/share/new-tf-topic/local_setup.sh
+[4.311s] -- Symlinking: /home/autodrive_devkit/ros2_laser_scan_matcher/src/new-tf-topic/install/new-tf-topic/share/new-tf-topic/local_setup.zsh
+[4.317s] -- Symlinking: /home/autodrive_devkit/ros2_laser_scan_matcher/src/new-tf-topic/install/new-tf-topic/share/new-tf-topic/local_setup.dsv
+[4.323s] -- Symlinking: /home/autodrive_devkit/ros2_laser_scan_matcher/src/new-tf-topic/install/new-tf-topic/share/new-tf-topic/package.dsv
+[4.329s] -- Symlinking: /home/autodrive_devkit/ros2_laser_scan_matcher/src/new-tf-topic/install/new-tf-topic/share/ament_index/resource_index/packages/new-tf-topic
+[4.335s] -- Symlinking: /home/autodrive_devkit/ros2_laser_scan_matcher/src/new-tf-topic/install/new-tf-topic/share/new-tf-topic/cmake/new-tf-topicConfig.cmake
+[4.341s] -- Symlinking: /home/autodrive_devkit/ros2_laser_scan_matcher/src/new-tf-topic/install/new-tf-topic/share/new-tf-topic/cmake/new-tf-topicConfig-version.cmake
+[4.346s] -- Symlinking: /home/autodrive_devkit/ros2_laser_scan_matcher/src/new-tf-topic/install/new-tf-topic/share/new-tf-topic/package.xml
+[4.354s] Invoked command in '/home/autodrive_devkit/ros2_laser_scan_matcher/src/new-tf-topic/build/new-tf-topic' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/autodrive_devkit/install/autodrive_roboracer:/opt/ros/humble /usr/bin/cmake --install /home/autodrive_devkit/ros2_laser_scan_matcher/src/new-tf-topic/build/new-tf-topic

@@ -1,0 +1,207 @@
+[0.000000] (-) TimerEvent: {}
+[0.000189] (ydlidar_ros2_driver) JobQueued: {'identifier': 'ydlidar_ros2_driver', 'dependencies': OrderedDict()}
+[0.000266] (ydlidar_ros2_driver) JobStarted: {'identifier': 'ydlidar_ros2_driver'}
+[0.007071] (ydlidar_ros2_driver) JobProgress: {'identifier': 'ydlidar_ros2_driver', 'progress': 'cmake'}
+[0.007514] (ydlidar_ros2_driver) Command: {'cmd': ['/usr/bin/cmake', '/home/autodrive_devkit/ros2_laser_scan_matcher/src/ydlidar_ros2_ws/src/ydlidar_ros2_driver', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/autodrive_devkit/ros2_laser_scan_matcher/src/ydlidar_ros2_ws/src/ydlidar_ros2_driver/install/ydlidar_ros2_driver'], 'cwd': '/home/autodrive_devkit/ros2_laser_scan_matcher/src/ydlidar_ros2_ws/src/ydlidar_ros2_driver/build/ydlidar_ros2_driver', 'env': OrderedDict([('HOSTNAME', 'anshumaan-ubuntu'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib'), ('HOME', '/root'), ('OLDPWD', '/home/autodrive_devkit/ros2_laser_scan_matcher/src/ydlidar_ros2_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/home/autodrive_devkit/ros2_laser_scan_matcher/src/ydlidar_ros2_ws/src/ydlidar_ros2_driver/install:/home/autodrive_devkit/ros2_laser_scan_matcher/src/new-tf-topic/install:/home/autodrive_devkit/ros2_laser_scan_matcher/install:/home/autodrive_devkit/ros2_laser_scan_matcher/src/ydlidar_ros2_ws/install:/home/autodrive_devkit/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/autodrive_devkit/ros2_laser_scan_matcher/src/ydlidar_ros2_ws/install/ydlidar_sdk/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/tmp/runtime-root'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/autodrive_devkit/ros2_laser_scan_matcher/install/ros2_laser_scan_matcher:/home/autodrive_devkit/ros2_laser_scan_matcher/src/ydlidar_ros2_ws/install/ydlidar_ros2_driver:/home/autodrive_devkit/ros2_laser_scan_matcher/src/ydlidar_ros2_ws/src/ydlidar_ros2_driver/install/ydlidar_ros2_driver:/home/autodrive_devkit/ros2_laser_scan_matcher/src/new-tf-topic/install/new-tf-topic:/home/autodrive_devkit/install/autodrive_roboracer:/opt/ros/humble'), ('PWD', '/home/autodrive_devkit/ros2_laser_scan_matcher/src/ydlidar_ros2_ws/src/ydlidar_ros2_driver/build/ydlidar_ros2_driver'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/home/autodrive_devkit/install/autodrive_roboracer/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/autodrive_devkit/ros2_laser_scan_matcher/install/ros2_laser_scan_matcher:/home/autodrive_devkit/ros2_laser_scan_matcher/src/ydlidar_ros2_ws/install/ydlidar_sdk:/home/autodrive_devkit/ros2_laser_scan_matcher/src/ydlidar_ros2_ws/install/ydlidar_ros2_driver:/home/autodrive_devkit/ros2_laser_scan_matcher/src/ydlidar_ros2_ws/src/ydlidar_ros2_driver/install/ydlidar_ros2_driver:/home/autodrive_devkit/ros2_laser_scan_matcher/src/new-tf-topic/install/new-tf-topic::/usr/local:/home/autodrive_devkit/install/autodrive_roboracer:/opt/ros/humble')]), 'shell': False}
+[0.099667] (-) TimerEvent: {}
+[0.178204] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.199755] (-) TimerEvent: {}
+[0.235483] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.248065] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.299886] (-) TimerEvent: {}
+[0.329355] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.344693] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.347866] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.348569] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.354031] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.400045] (-) TimerEvent: {}
+[0.436496] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.441439] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.441656] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.441903] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.461470] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.500139] (-) TimerEvent: {}
+[0.600441] (-) TimerEvent: {}
+[0.614950] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.672760] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.700580] (-) TimerEvent: {}
+[0.729781] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.800750] (-) TimerEvent: {}
+[0.806966] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.814684] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.828121] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.849134] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.872631] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.900926] (-) TimerEvent: {}
+[0.938831] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.943136] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.001105] (-) TimerEvent: {}
+[1.078787] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.101205] (-) TimerEvent: {}
+[1.106948] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.140647] (ydlidar_ros2_driver) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.154778] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.201343] (-) TimerEvent: {}
+[1.265972] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.266527] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.301461] (-) TimerEvent: {}
+[1.340633] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.341592] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.401576] (-) TimerEvent: {}
+[1.417931] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[1.449237] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Found visualization_msgs: 4.2.4 (/opt/ros/humble/share/visualization_msgs/cmake)\n'}
+[1.463207] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Found std_srvs: 4.2.4 (/opt/ros/humble/share/std_srvs/cmake)\n'}
+[1.475397] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.501696] (-) TimerEvent: {}
+[1.551235] (ydlidar_ros2_driver) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.555990] (ydlidar_ros2_driver) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.556266] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/autodrive_devkit/ros2_laser_scan_matcher/src/ydlidar_ros2_ws/src/ydlidar_ros2_driver/src\n'}
+[1.556340] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.560344] (ydlidar_ros2_driver) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[1.560423] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[1.561439] (ydlidar_ros2_driver) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[1.563048] (ydlidar_ros2_driver) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.564293] (ydlidar_ros2_driver) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[1.568742] (ydlidar_ros2_driver) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.568869] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.570287] (ydlidar_ros2_driver) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.571953] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.580930] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Generating done\n'}
+[1.584625] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Build files have been written to: /home/autodrive_devkit/ros2_laser_scan_matcher/src/ydlidar_ros2_ws/src/ydlidar_ros2_driver/build/ydlidar_ros2_driver\n'}
+[1.592597] (ydlidar_ros2_driver) CommandEnded: {'returncode': 0}
+[1.592990] (ydlidar_ros2_driver) JobProgress: {'identifier': 'ydlidar_ros2_driver', 'progress': 'build'}
+[1.593012] (ydlidar_ros2_driver) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/autodrive_devkit/ros2_laser_scan_matcher/src/ydlidar_ros2_ws/src/ydlidar_ros2_driver/build/ydlidar_ros2_driver', '--', '-j12', '-l12'], 'cwd': '/home/autodrive_devkit/ros2_laser_scan_matcher/src/ydlidar_ros2_ws/src/ydlidar_ros2_driver/build/ydlidar_ros2_driver', 'env': OrderedDict([('HOSTNAME', 'anshumaan-ubuntu'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib'), ('HOME', '/root'), ('OLDPWD', '/home/autodrive_devkit/ros2_laser_scan_matcher/src/ydlidar_ros2_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/home/autodrive_devkit/ros2_laser_scan_matcher/src/ydlidar_ros2_ws/src/ydlidar_ros2_driver/install:/home/autodrive_devkit/ros2_laser_scan_matcher/src/new-tf-topic/install:/home/autodrive_devkit/ros2_laser_scan_matcher/install:/home/autodrive_devkit/ros2_laser_scan_matcher/src/ydlidar_ros2_ws/install:/home/autodrive_devkit/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/autodrive_devkit/ros2_laser_scan_matcher/src/ydlidar_ros2_ws/install/ydlidar_sdk/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/tmp/runtime-root'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/autodrive_devkit/ros2_laser_scan_matcher/install/ros2_laser_scan_matcher:/home/autodrive_devkit/ros2_laser_scan_matcher/src/ydlidar_ros2_ws/install/ydlidar_ros2_driver:/home/autodrive_devkit/ros2_laser_scan_matcher/src/ydlidar_ros2_ws/src/ydlidar_ros2_driver/install/ydlidar_ros2_driver:/home/autodrive_devkit/ros2_laser_scan_matcher/src/new-tf-topic/install/new-tf-topic:/home/autodrive_devkit/install/autodrive_roboracer:/opt/ros/humble'), ('PWD', '/home/autodrive_devkit/ros2_laser_scan_matcher/src/ydlidar_ros2_ws/src/ydlidar_ros2_driver/build/ydlidar_ros2_driver'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/home/autodrive_devkit/install/autodrive_roboracer/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/autodrive_devkit/ros2_laser_scan_matcher/install/ros2_laser_scan_matcher:/home/autodrive_devkit/ros2_laser_scan_matcher/src/ydlidar_ros2_ws/install/ydlidar_sdk:/home/autodrive_devkit/ros2_laser_scan_matcher/src/ydlidar_ros2_ws/install/ydlidar_ros2_driver:/home/autodrive_devkit/ros2_laser_scan_matcher/src/ydlidar_ros2_ws/src/ydlidar_ros2_driver/install/ydlidar_ros2_driver:/home/autodrive_devkit/ros2_laser_scan_matcher/src/new-tf-topic/install/new-tf-topic::/usr/local:/home/autodrive_devkit/install/autodrive_roboracer:/opt/ros/humble')]), 'shell': False}
+[1.601787] (-) TimerEvent: {}
+[1.636767] (ydlidar_ros2_driver) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/ydlidar_ros2_driver_node.dir/src/ydlidar_ros2_driver_node.cpp.o\x1b[0m\n'}
+[1.637742] (ydlidar_ros2_driver) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/ydlidar_ros2_driver_client.dir/src/ydlidar_ros2_driver_client.cpp.o\x1b[0m\n'}
+[1.701890] (-) TimerEvent: {}
+[1.802214] (-) TimerEvent: {}
+[1.902521] (-) TimerEvent: {}
+[2.002830] (-) TimerEvent: {}
+[2.103141] (-) TimerEvent: {}
+[2.203454] (-) TimerEvent: {}
+[2.303769] (-) TimerEvent: {}
+[2.404081] (-) TimerEvent: {}
+[2.504439] (-) TimerEvent: {}
+[2.604767] (-) TimerEvent: {}
+[2.705105] (-) TimerEvent: {}
+[2.805397] (-) TimerEvent: {}
+[2.905716] (-) TimerEvent: {}
+[3.006037] (-) TimerEvent: {}
+[3.106334] (-) TimerEvent: {}
+[3.206664] (-) TimerEvent: {}
+[3.299556] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/autodrive_devkit/ros2_laser_scan_matcher/src/ydlidar_ros2_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:\x1b[m\x1b[K In lambda function:\n'}
+[3.299770] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/autodrive_devkit/ros2_laser_scan_matcher/src/ydlidar_ros2_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:191:54:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Krequest_header\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[3.299853] (ydlidar_ros2_driver) StderrLine: {'line': b'  191 |     [&laser](\x1b[01;35m\x1b[Kconst std::shared_ptr<rmw_request_id_t> request_header\x1b[m\x1b[K,\n'}
+[3.299927] (ydlidar_ros2_driver) StderrLine: {'line': b'      |              \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.300006] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/autodrive_devkit/ros2_laser_scan_matcher/src/ydlidar_ros2_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:192:56:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kreq\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[3.300090] (ydlidar_ros2_driver) StderrLine: {'line': b'  192 |   \x1b[01;35m\x1b[Kconst std::shared_ptr<std_srvs::srv::Empty::Request> req\x1b[m\x1b[K,\n'}
+[3.300158] (ydlidar_ros2_driver) StderrLine: {'line': b'      |   \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[3.300225] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/autodrive_devkit/ros2_laser_scan_matcher/src/ydlidar_ros2_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:193:51:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kresponse\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[3.300294] (ydlidar_ros2_driver) StderrLine: {'line': b'  193 |   \x1b[01;35m\x1b[Kstd::shared_ptr<std_srvs::srv::Empty::Response> response\x1b[m\x1b[K) -> bool\n'}
+[3.300360] (ydlidar_ros2_driver) StderrLine: {'line': b'      |   \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~\x1b[m\x1b[K\n'}
+[3.306764] (-) TimerEvent: {}
+[3.309388] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/autodrive_devkit/ros2_laser_scan_matcher/src/ydlidar_ros2_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:\x1b[m\x1b[K In lambda function:\n'}
+[3.309569] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/autodrive_devkit/ros2_laser_scan_matcher/src/ydlidar_ros2_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:201:54:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Krequest_header\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[3.309661] (ydlidar_ros2_driver) StderrLine: {'line': b'  201 |     [&laser](\x1b[01;35m\x1b[Kconst std::shared_ptr<rmw_request_id_t> request_header\x1b[m\x1b[K,\n'}
+[3.309743] (ydlidar_ros2_driver) StderrLine: {'line': b'      |              \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.309819] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/autodrive_devkit/ros2_laser_scan_matcher/src/ydlidar_ros2_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:202:56:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kreq\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[3.309912] (ydlidar_ros2_driver) StderrLine: {'line': b'  202 |   \x1b[01;35m\x1b[Kconst std::shared_ptr<std_srvs::srv::Empty::Request> req\x1b[m\x1b[K,\n'}
+[3.309986] (ydlidar_ros2_driver) StderrLine: {'line': b'      |   \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[3.310070] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/autodrive_devkit/ros2_laser_scan_matcher/src/ydlidar_ros2_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:203:51:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kresponse\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[3.310148] (ydlidar_ros2_driver) StderrLine: {'line': b'  203 |   \x1b[01;35m\x1b[Kstd::shared_ptr<std_srvs::srv::Empty::Response> response\x1b[m\x1b[K) -> bool\n'}
+[3.310214] (ydlidar_ros2_driver) StderrLine: {'line': b'      |   \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~\x1b[m\x1b[K\n'}
+[3.406893] (-) TimerEvent: {}
+[3.507200] (-) TimerEvent: {}
+[3.607521] (-) TimerEvent: {}
+[3.707843] (-) TimerEvent: {}
+[3.808156] (-) TimerEvent: {}
+[3.908476] (-) TimerEvent: {}
+[4.008804] (-) TimerEvent: {}
+[4.109072] (-) TimerEvent: {}
+[4.209367] (-) TimerEvent: {}
+[4.309676] (-) TimerEvent: {}
+[4.410058] (-) TimerEvent: {}
+[4.510444] (-) TimerEvent: {}
+[4.610730] (-) TimerEvent: {}
+[4.711056] (-) TimerEvent: {}
+[4.811346] (-) TimerEvent: {}
+[4.911656] (-) TimerEvent: {}
+[5.012036] (-) TimerEvent: {}
+[5.112412] (-) TimerEvent: {}
+[5.212793] (-) TimerEvent: {}
+[5.313171] (-) TimerEvent: {}
+[5.413548] (-) TimerEvent: {}
+[5.484867] (ydlidar_ros2_driver) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable ydlidar_ros2_driver_node\x1b[0m\n'}
+[5.513677] (-) TimerEvent: {}
+[5.614080] (-) TimerEvent: {}
+[5.706015] (ydlidar_ros2_driver) StdoutLine: {'line': b'[ 75%] Built target ydlidar_ros2_driver_node\n'}
+[5.714178] (-) TimerEvent: {}
+[5.814480] (-) TimerEvent: {}
+[5.914851] (-) TimerEvent: {}
+[6.015235] (-) TimerEvent: {}
+[6.115558] (-) TimerEvent: {}
+[6.215935] (-) TimerEvent: {}
+[6.316332] (-) TimerEvent: {}
+[6.416706] (-) TimerEvent: {}
+[6.517082] (-) TimerEvent: {}
+[6.617482] (-) TimerEvent: {}
+[6.717855] (-) TimerEvent: {}
+[6.818162] (-) TimerEvent: {}
+[6.918474] (-) TimerEvent: {}
+[7.016607] (ydlidar_ros2_driver) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable ydlidar_ros2_driver_client\x1b[0m\n'}
+[7.018555] (-) TimerEvent: {}
+[7.118907] (-) TimerEvent: {}
+[7.219317] (-) TimerEvent: {}
+[7.290205] (ydlidar_ros2_driver) StdoutLine: {'line': b'[100%] Built target ydlidar_ros2_driver_client\n'}
+[7.307950] (ydlidar_ros2_driver) CommandEnded: {'returncode': 0}
+[7.308571] (ydlidar_ros2_driver) JobProgress: {'identifier': 'ydlidar_ros2_driver', 'progress': 'install'}
+[7.319652] (ydlidar_ros2_driver) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/autodrive_devkit/ros2_laser_scan_matcher/src/ydlidar_ros2_ws/src/ydlidar_ros2_driver/build/ydlidar_ros2_driver'], 'cwd': '/home/autodrive_devkit/ros2_laser_scan_matcher/src/ydlidar_ros2_ws/src/ydlidar_ros2_driver/build/ydlidar_ros2_driver', 'env': OrderedDict([('HOSTNAME', 'anshumaan-ubuntu'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib'), ('HOME', '/root'), ('OLDPWD', '/home/autodrive_devkit/ros2_laser_scan_matcher/src/ydlidar_ros2_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/home/autodrive_devkit/ros2_laser_scan_matcher/src/ydlidar_ros2_ws/src/ydlidar_ros2_driver/install:/home/autodrive_devkit/ros2_laser_scan_matcher/src/new-tf-topic/install:/home/autodrive_devkit/ros2_laser_scan_matcher/install:/home/autodrive_devkit/ros2_laser_scan_matcher/src/ydlidar_ros2_ws/install:/home/autodrive_devkit/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/autodrive_devkit/ros2_laser_scan_matcher/src/ydlidar_ros2_ws/install/ydlidar_sdk/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/tmp/runtime-root'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/autodrive_devkit/ros2_laser_scan_matcher/install/ros2_laser_scan_matcher:/home/autodrive_devkit/ros2_laser_scan_matcher/src/ydlidar_ros2_ws/install/ydlidar_ros2_driver:/home/autodrive_devkit/ros2_laser_scan_matcher/src/ydlidar_ros2_ws/src/ydlidar_ros2_driver/install/ydlidar_ros2_driver:/home/autodrive_devkit/ros2_laser_scan_matcher/src/new-tf-topic/install/new-tf-topic:/home/autodrive_devkit/install/autodrive_roboracer:/opt/ros/humble'), ('PWD', '/home/autodrive_devkit/ros2_laser_scan_matcher/src/ydlidar_ros2_ws/src/ydlidar_ros2_driver/build/ydlidar_ros2_driver'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/home/autodrive_devkit/install/autodrive_roboracer/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/autodrive_devkit/ros2_laser_scan_matcher/install/ros2_laser_scan_matcher:/home/autodrive_devkit/ros2_laser_scan_matcher/src/ydlidar_ros2_ws/install/ydlidar_sdk:/home/autodrive_devkit/ros2_laser_scan_matcher/src/ydlidar_ros2_ws/install/ydlidar_ros2_driver:/home/autodrive_devkit/ros2_laser_scan_matcher/src/ydlidar_ros2_ws/src/ydlidar_ros2_driver/install/ydlidar_ros2_driver:/home/autodrive_devkit/ros2_laser_scan_matcher/src/new-tf-topic/install/new-tf-topic::/usr/local:/home/autodrive_devkit/install/autodrive_roboracer:/opt/ros/humble')]), 'shell': False}
+[7.320150] (-) TimerEvent: {}
+[7.326214] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.326498] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[7.326743] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/autodrive_devkit/ros2_laser_scan_matcher/src/ydlidar_ros2_ws/src/ydlidar_ros2_driver/install/ydlidar_ros2_driver/lib/ydlidar_ros2_driver/ydlidar_ros2_driver_node\n'}
+[7.339620] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/autodrive_devkit/ros2_laser_scan_matcher/src/ydlidar_ros2_ws/src/ydlidar_ros2_driver/install/ydlidar_ros2_driver/lib/ydlidar_ros2_driver/ydlidar_ros2_driver_client\n'}
+[7.353685] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/autodrive_devkit/ros2_laser_scan_matcher/src/ydlidar_ros2_ws/src/ydlidar_ros2_driver/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/ydlidar.py\n'}
+[7.364305] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/autodrive_devkit/ros2_laser_scan_matcher/src/ydlidar_ros2_ws/src/ydlidar_ros2_driver/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/ydlidar_launch.py\n'}
+[7.375630] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/autodrive_devkit/ros2_laser_scan_matcher/src/ydlidar_ros2_ws/src/ydlidar_ros2_driver/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/ydlidar_launch_view.py\n'}
+[7.386734] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/autodrive_devkit/ros2_laser_scan_matcher/src/ydlidar_ros2_ws/src/ydlidar_ros2_driver/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/G1.yaml\n'}
+[7.397850] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/autodrive_devkit/ros2_laser_scan_matcher/src/ydlidar_ros2_ws/src/ydlidar_ros2_driver/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/G2.yaml\n'}
+[7.407722] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/autodrive_devkit/ros2_laser_scan_matcher/src/ydlidar_ros2_ws/src/ydlidar_ros2_driver/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/G4.yaml\n'}
+[7.417306] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/autodrive_devkit/ros2_laser_scan_matcher/src/ydlidar_ros2_ws/src/ydlidar_ros2_driver/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/G6.yaml\n'}
+[7.420255] (-) TimerEvent: {}
+[7.425097] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/autodrive_devkit/ros2_laser_scan_matcher/src/ydlidar_ros2_ws/src/ydlidar_ros2_driver/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/GS2.yaml\n'}
+[7.438752] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/autodrive_devkit/ros2_laser_scan_matcher/src/ydlidar_ros2_ws/src/ydlidar_ros2_driver/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/GS5.yaml\n'}
+[7.450796] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/autodrive_devkit/ros2_laser_scan_matcher/src/ydlidar_ros2_ws/src/ydlidar_ros2_driver/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/TEA.yaml\n'}
+[7.458407] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/autodrive_devkit/ros2_laser_scan_matcher/src/ydlidar_ros2_ws/src/ydlidar_ros2_driver/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/TG.yaml\n'}
+[7.469281] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/autodrive_devkit/ros2_laser_scan_matcher/src/ydlidar_ros2_ws/src/ydlidar_ros2_driver/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/Tmini-Plus-SH.yaml\n'}
+[7.479674] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/autodrive_devkit/ros2_laser_scan_matcher/src/ydlidar_ros2_ws/src/ydlidar_ros2_driver/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/Tmini.yaml\n'}
+[7.490895] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/autodrive_devkit/ros2_laser_scan_matcher/src/ydlidar_ros2_ws/src/ydlidar_ros2_driver/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/X2.yaml\n'}
+[7.500828] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/autodrive_devkit/ros2_laser_scan_matcher/src/ydlidar_ros2_ws/src/ydlidar_ros2_driver/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/X3.yaml\n'}
+[7.510847] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/autodrive_devkit/ros2_laser_scan_matcher/src/ydlidar_ros2_ws/src/ydlidar_ros2_driver/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/X4-Pro.yaml\n'}
+[7.520375] (-) TimerEvent: {}
+[7.520968] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/autodrive_devkit/ros2_laser_scan_matcher/src/ydlidar_ros2_ws/src/ydlidar_ros2_driver/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/X4.yaml\n'}
+[7.531141] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/autodrive_devkit/ros2_laser_scan_matcher/src/ydlidar_ros2_ws/src/ydlidar_ros2_driver/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/sdm15.yaml\n'}
+[7.539471] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/autodrive_devkit/ros2_laser_scan_matcher/src/ydlidar_ros2_ws/src/ydlidar_ros2_driver/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/ydlidar.yaml\n'}
+[7.546844] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/autodrive_devkit/ros2_laser_scan_matcher/src/ydlidar_ros2_ws/src/ydlidar_ros2_driver/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/startup/initenv.sh\n'}
+[7.554474] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/autodrive_devkit/ros2_laser_scan_matcher/src/ydlidar_ros2_ws/src/ydlidar_ros2_driver/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/config/ydlidar.rviz\n'}
+[7.561814] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/autodrive_devkit/ros2_laser_scan_matcher/src/ydlidar_ros2_ws/src/ydlidar_ros2_driver/install/ydlidar_ros2_driver/share/ament_index/resource_index/package_run_dependencies/ydlidar_ros2_driver\n'}
+[7.571652] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/autodrive_devkit/ros2_laser_scan_matcher/src/ydlidar_ros2_ws/src/ydlidar_ros2_driver/install/ydlidar_ros2_driver/share/ament_index/resource_index/parent_prefix_path/ydlidar_ros2_driver\n'}
+[7.582710] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/autodrive_devkit/ros2_laser_scan_matcher/src/ydlidar_ros2_ws/src/ydlidar_ros2_driver/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/ament_prefix_path.sh\n'}
+[7.591669] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/autodrive_devkit/ros2_laser_scan_matcher/src/ydlidar_ros2_ws/src/ydlidar_ros2_driver/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/ament_prefix_path.dsv\n'}
+[7.598379] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/autodrive_devkit/ros2_laser_scan_matcher/src/ydlidar_ros2_ws/src/ydlidar_ros2_driver/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/path.sh\n'}
+[7.604933] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/autodrive_devkit/ros2_laser_scan_matcher/src/ydlidar_ros2_ws/src/ydlidar_ros2_driver/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/path.dsv\n'}
+[7.613400] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/autodrive_devkit/ros2_laser_scan_matcher/src/ydlidar_ros2_ws/src/ydlidar_ros2_driver/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.bash\n'}
+[7.620467] (-) TimerEvent: {}
+[7.623308] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/autodrive_devkit/ros2_laser_scan_matcher/src/ydlidar_ros2_ws/src/ydlidar_ros2_driver/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.sh\n'}
+[7.635339] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/autodrive_devkit/ros2_laser_scan_matcher/src/ydlidar_ros2_ws/src/ydlidar_ros2_driver/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.zsh\n'}
+[7.647858] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/autodrive_devkit/ros2_laser_scan_matcher/src/ydlidar_ros2_ws/src/ydlidar_ros2_driver/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.dsv\n'}
+[7.659273] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/autodrive_devkit/ros2_laser_scan_matcher/src/ydlidar_ros2_ws/src/ydlidar_ros2_driver/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.dsv\n'}
+[7.668504] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/autodrive_devkit/ros2_laser_scan_matcher/src/ydlidar_ros2_ws/src/ydlidar_ros2_driver/install/ydlidar_ros2_driver/share/ament_index/resource_index/packages/ydlidar_ros2_driver\n'}
+[7.679123] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/autodrive_devkit/ros2_laser_scan_matcher/src/ydlidar_ros2_ws/src/ydlidar_ros2_driver/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/cmake/ydlidar_ros2_driverConfig.cmake\n'}
+[7.689425] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/autodrive_devkit/ros2_laser_scan_matcher/src/ydlidar_ros2_ws/src/ydlidar_ros2_driver/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/cmake/ydlidar_ros2_driverConfig-version.cmake\n'}
+[7.700700] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/autodrive_devkit/ros2_laser_scan_matcher/src/ydlidar_ros2_ws/src/ydlidar_ros2_driver/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.xml\n'}
+[7.713317] (ydlidar_ros2_driver) CommandEnded: {'returncode': 0}
+[7.720637] (-) TimerEvent: {}
+[7.747055] (ydlidar_ros2_driver) JobEnded: {'identifier': 'ydlidar_ros2_driver', 'rc': 0}
+[7.747457] (-) EventReactorShutdown: {}

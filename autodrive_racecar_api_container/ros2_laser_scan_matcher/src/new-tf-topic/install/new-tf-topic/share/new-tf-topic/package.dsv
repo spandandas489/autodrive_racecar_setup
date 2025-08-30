@@ -1,0 +1,8 @@
+source;share/new-tf-topic/hook/cmake_prefix_path.ps1
+source;share/new-tf-topic/hook/cmake_prefix_path.dsv
+source;share/new-tf-topic/hook/cmake_prefix_path.sh
+source;share/new-tf-topic/local_setup.bash
+source;share/new-tf-topic/local_setup.dsv
+source;share/new-tf-topic/local_setup.ps1
+source;share/new-tf-topic/local_setup.sh
+source;share/new-tf-topic/local_setup.zsh

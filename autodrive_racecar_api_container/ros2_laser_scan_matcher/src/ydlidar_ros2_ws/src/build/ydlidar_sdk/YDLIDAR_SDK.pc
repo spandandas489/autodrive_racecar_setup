@@ -1,0 +1,11 @@
+prefix=/home/autodrive_devkit/ros2_laser_scan_matcher/src/ydlidar_ros2_ws/src/install/ydlidar_sdk
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: YDLIDAR_SDK
+Description: 
+Version: 1.2.18
+Cflags:   -I/home/autodrive_devkit/ros2_laser_scan_matcher/src/ydlidar_ros2_ws/src/install/ydlidar_sdk/include/src -I/home/autodrive_devkit/ros2_laser_scan_matcher/src/ydlidar_ros2_ws/src/install/ydlidar_sdk/include
+Libs: -L${libdir}  -lpthread -lrt -lydlidar_sdk
+

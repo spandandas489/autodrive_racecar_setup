@@ -1,0 +1,4 @@
+[35m[1mConsolidate compiler generated dependencies of target laser_scan_matcher[0m
+gmake[2]: *** No rule to make target '/usr/local/lib/libcsm.so', needed by 'laser_scan_matcher'.  Stop.
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/laser_scan_matcher.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

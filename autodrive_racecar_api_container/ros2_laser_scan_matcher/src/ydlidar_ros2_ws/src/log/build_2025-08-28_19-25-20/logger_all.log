@@ -1,0 +1,130 @@
+[0.063s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.063s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7c356d436e30>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7c356d664310>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7c356d664310>>, mixin_verb=('build',))
+[0.134s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.135s] INFO:colcon.colcon_metadata.package_discovery.colcon_meta:Using configuration from '/root/.colcon/metadata/default/Gazebo.meta'
+[0.135s] INFO:colcon.colcon_metadata.package_discovery.colcon_meta:Using configuration from '/root/.colcon/metadata/default/fastrtps.meta'
+[0.135s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.135s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.135s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.135s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.135s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.135s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/autodrive_devkit/ros2_laser_scan_matcher/src/ydlidar_ros2_ws/src'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(YDLidar-SDK) by extensions ['ignore', 'ignore_ament_install']
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(YDLidar-SDK) by extension 'ignore'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(YDLidar-SDK) by extension 'ignore_ament_install'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(YDLidar-SDK) by extensions ['colcon_pkg']
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(YDLidar-SDK) by extension 'colcon_pkg'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(YDLidar-SDK) by extensions ['colcon_meta']
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(YDLidar-SDK) by extension 'colcon_meta'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(YDLidar-SDK) by extensions ['ros']
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(YDLidar-SDK) by extension 'ros'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(YDLidar-SDK) by extensions ['cmake', 'python']
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(YDLidar-SDK) by extension 'cmake'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(YDLidar-SDK) by extension 'python'
+[0.186s] DEBUG:colcon.colcon_core.package_identification:Package 'YDLidar-SDK' with type 'cmake' and name 'ydlidar_sdk'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(ydlidar_ros2_driver) by extensions ['ignore', 'ignore_ament_install']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(ydlidar_ros2_driver) by extension 'ignore'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(ydlidar_ros2_driver) by extension 'ignore_ament_install'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(ydlidar_ros2_driver) by extensions ['colcon_pkg']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(ydlidar_ros2_driver) by extension 'colcon_pkg'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(ydlidar_ros2_driver) by extensions ['colcon_meta']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(ydlidar_ros2_driver) by extension 'colcon_meta'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(ydlidar_ros2_driver) by extensions ['ros']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(ydlidar_ros2_driver) by extension 'ros'
+[0.188s] DEBUG:colcon.colcon_core.package_identification:Package 'ydlidar_ros2_driver' with type 'ros.ament_cmake' and name 'ydlidar_ros2_driver'
+[0.188s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.188s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.188s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.188s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.188s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.199s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_args' from command line to 'None'
+[0.199s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_target' from command line to 'None'
+[0.199s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.199s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[0.199s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_clean_first' from command line to 'False'
+[0.199s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_force_configure' from command line to 'False'
+[0.199s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'ament_cmake_args' from command line to 'None'
+[0.199s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[0.199s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.199s] DEBUG:colcon.colcon_core.verb:Building package 'ydlidar_ros2_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/autodrive_devkit/ros2_laser_scan_matcher/src/ydlidar_ros2_ws/src/build/ydlidar_ros2_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/autodrive_devkit/ros2_laser_scan_matcher/src/ydlidar_ros2_ws/src/install/ydlidar_ros2_driver', 'merge_install': False, 'path': '/home/autodrive_devkit/ros2_laser_scan_matcher/src/ydlidar_ros2_ws/src/ydlidar_ros2_driver', 'symlink_install': True, 'test_result_base': None}
+[0.200s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_sdk' build argument 'cmake_args' from command line to 'None'
+[0.200s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_sdk' build argument 'cmake_target' from command line to 'None'
+[0.200s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_sdk' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.200s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_sdk' build argument 'cmake_clean_cache' from command line to 'False'
+[0.200s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_sdk' build argument 'cmake_clean_first' from command line to 'False'
+[0.200s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_sdk' build argument 'cmake_force_configure' from command line to 'False'
+[0.200s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_sdk' build argument 'ament_cmake_args' from command line to 'None'
+[0.200s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_sdk' build argument 'catkin_cmake_args' from command line to 'None'
+[0.200s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_sdk' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.200s] DEBUG:colcon.colcon_core.verb:Building package 'ydlidar_sdk' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/autodrive_devkit/ros2_laser_scan_matcher/src/ydlidar_ros2_ws/src/build/ydlidar_sdk', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/autodrive_devkit/ros2_laser_scan_matcher/src/ydlidar_ros2_ws/src/install/ydlidar_sdk', 'merge_install': False, 'path': '/home/autodrive_devkit/ros2_laser_scan_matcher/src/ydlidar_ros2_ws/src/YDLidar-SDK', 'symlink_install': True, 'test_result_base': None}
+[0.200s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.201s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.201s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/autodrive_devkit/ros2_laser_scan_matcher/src/ydlidar_ros2_ws/src/ydlidar_ros2_driver' with build type 'ament_cmake'
+[0.201s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/autodrive_devkit/ros2_laser_scan_matcher/src/ydlidar_ros2_ws/src/ydlidar_ros2_driver'
+[0.203s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.203s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.203s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.207s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/autodrive_devkit/ros2_laser_scan_matcher/src/ydlidar_ros2_ws/src/YDLidar-SDK'
+[0.207s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.207s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.211s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/autodrive_devkit/ros2_laser_scan_matcher/src/ydlidar_ros2_ws/src/build/ydlidar_ros2_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/autodrive_devkit/install/autodrive_roboracer:/opt/ros/humble /usr/bin/cmake /home/autodrive_devkit/ros2_laser_scan_matcher/src/ydlidar_ros2_ws/src/ydlidar_ros2_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/autodrive_devkit/ros2_laser_scan_matcher/src/ydlidar_ros2_ws/src/install/ydlidar_ros2_driver
+[0.214s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/autodrive_devkit/ros2_laser_scan_matcher/src/ydlidar_ros2_ws/src/build/ydlidar_sdk': /usr/bin/cmake /home/autodrive_devkit/ros2_laser_scan_matcher/src/ydlidar_ros2_ws/src/YDLidar-SDK -DCMAKE_INSTALL_PREFIX=/home/autodrive_devkit/ros2_laser_scan_matcher/src/ydlidar_ros2_ws/src/install/ydlidar_sdk
+[0.752s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/autodrive_devkit/ros2_laser_scan_matcher/src/ydlidar_ros2_ws/src/build/ydlidar_sdk' returned '0': /usr/bin/cmake /home/autodrive_devkit/ros2_laser_scan_matcher/src/ydlidar_ros2_ws/src/YDLidar-SDK -DCMAKE_INSTALL_PREFIX=/home/autodrive_devkit/ros2_laser_scan_matcher/src/ydlidar_ros2_ws/src/install/ydlidar_sdk
+[0.752s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/autodrive_devkit/ros2_laser_scan_matcher/src/ydlidar_ros2_ws/src/build/ydlidar_sdk': /usr/bin/cmake --build /home/autodrive_devkit/ros2_laser_scan_matcher/src/ydlidar_ros2_ws/src/build/ydlidar_sdk -- -j12 -l12
+[1.484s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/autodrive_devkit/ros2_laser_scan_matcher/src/ydlidar_ros2_ws/src/build/ydlidar_ros2_driver' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/autodrive_devkit/install/autodrive_roboracer:/opt/ros/humble /usr/bin/cmake /home/autodrive_devkit/ros2_laser_scan_matcher/src/ydlidar_ros2_ws/src/ydlidar_ros2_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/autodrive_devkit/ros2_laser_scan_matcher/src/ydlidar_ros2_ws/src/install/ydlidar_ros2_driver
+[1.493s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ydlidar_ros2_driver)
+[1.495s] Level 1:colcon.colcon_core.environment:checking '/home/autodrive_devkit/ros2_laser_scan_matcher/src/ydlidar_ros2_ws/src/install/ydlidar_ros2_driver' for CMake module files
+[1.496s] Level 1:colcon.colcon_core.environment:checking '/home/autodrive_devkit/ros2_laser_scan_matcher/src/ydlidar_ros2_ws/src/install/ydlidar_ros2_driver' for CMake config files
+[1.496s] Level 1:colcon.colcon_core.environment:checking '/home/autodrive_devkit/ros2_laser_scan_matcher/src/ydlidar_ros2_ws/src/install/ydlidar_ros2_driver/bin'
+[1.496s] Level 1:colcon.colcon_core.environment:checking '/home/autodrive_devkit/ros2_laser_scan_matcher/src/ydlidar_ros2_ws/src/install/ydlidar_ros2_driver/lib/pkgconfig/ydlidar_ros2_driver.pc'
+[1.499s] Level 1:colcon.colcon_core.environment:checking '/home/autodrive_devkit/ros2_laser_scan_matcher/src/ydlidar_ros2_ws/src/install/ydlidar_ros2_driver/lib/python3.10/site-packages'
+[1.499s] Level 1:colcon.colcon_core.environment:checking '/home/autodrive_devkit/ros2_laser_scan_matcher/src/ydlidar_ros2_ws/src/install/ydlidar_ros2_driver/bin'
+[1.499s] INFO:colcon.colcon_core.shell:Creating package script '/home/autodrive_devkit/ros2_laser_scan_matcher/src/ydlidar_ros2_ws/src/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.ps1'
+[1.500s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/autodrive_devkit/ros2_laser_scan_matcher/src/ydlidar_ros2_ws/src/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.dsv'
+[1.501s] INFO:colcon.colcon_core.shell:Creating package script '/home/autodrive_devkit/ros2_laser_scan_matcher/src/ydlidar_ros2_ws/src/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.sh'
+[1.501s] INFO:colcon.colcon_core.shell:Creating package script '/home/autodrive_devkit/ros2_laser_scan_matcher/src/ydlidar_ros2_ws/src/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.bash'
+[1.502s] INFO:colcon.colcon_core.shell:Creating package script '/home/autodrive_devkit/ros2_laser_scan_matcher/src/ydlidar_ros2_ws/src/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.zsh'
+[1.503s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/autodrive_devkit/ros2_laser_scan_matcher/src/ydlidar_ros2_ws/src/install/ydlidar_ros2_driver/share/colcon-core/packages/ydlidar_ros2_driver)
+[3.123s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[3.123s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[3.123s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '1'
+[3.123s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[3.128s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[3.128s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.128s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.128s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[3.129s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.Spawn.ExecFailed: /usr/bin/dbus-launch terminated abnormally without any error message
+[3.129s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[3.130s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/autodrive_devkit/ros2_laser_scan_matcher/src/ydlidar_ros2_ws/src/install/local_setup.ps1'
+[3.131s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/autodrive_devkit/ros2_laser_scan_matcher/src/ydlidar_ros2_ws/src/install/_local_setup_util_ps1.py'
+[3.131s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/autodrive_devkit/ros2_laser_scan_matcher/src/ydlidar_ros2_ws/src/install/setup.ps1'
+[3.132s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/autodrive_devkit/ros2_laser_scan_matcher/src/ydlidar_ros2_ws/src/install/local_setup.sh'
+[3.132s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/autodrive_devkit/ros2_laser_scan_matcher/src/ydlidar_ros2_ws/src/install/_local_setup_util_sh.py'
+[3.133s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/autodrive_devkit/ros2_laser_scan_matcher/src/ydlidar_ros2_ws/src/install/setup.sh'
+[3.133s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/autodrive_devkit/ros2_laser_scan_matcher/src/ydlidar_ros2_ws/src/install/local_setup.bash'
+[3.134s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/autodrive_devkit/ros2_laser_scan_matcher/src/ydlidar_ros2_ws/src/install/setup.bash'
+[3.134s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/autodrive_devkit/ros2_laser_scan_matcher/src/ydlidar_ros2_ws/src/install/local_setup.zsh'
+[3.134s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/autodrive_devkit/ros2_laser_scan_matcher/src/ydlidar_ros2_ws/src/install/setup.zsh'

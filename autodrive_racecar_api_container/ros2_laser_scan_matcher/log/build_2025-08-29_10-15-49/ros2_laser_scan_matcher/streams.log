@@ -1,0 +1,23 @@
+[0.025s] Invoking command in '/home/autodrive_devkit/ros2_laser_scan_matcher/build/ros2_laser_scan_matcher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/autodrive_devkit/install/autodrive_roboracer:/opt/ros/humble /usr/bin/cmake --build /home/autodrive_devkit/ros2_laser_scan_matcher/build/ros2_laser_scan_matcher -- -j12 -l12
+[0.097s] [100%] Built target laser_scan_matcher
+[0.107s] Invoked command in '/home/autodrive_devkit/ros2_laser_scan_matcher/build/ros2_laser_scan_matcher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/autodrive_devkit/install/autodrive_roboracer:/opt/ros/humble /usr/bin/cmake --build /home/autodrive_devkit/ros2_laser_scan_matcher/build/ros2_laser_scan_matcher -- -j12 -l12
+[0.121s] Invoking command in '/home/autodrive_devkit/ros2_laser_scan_matcher/build/ros2_laser_scan_matcher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/autodrive_devkit/install/autodrive_roboracer:/opt/ros/humble /usr/bin/cmake --install /home/autodrive_devkit/ros2_laser_scan_matcher/build/ros2_laser_scan_matcher
+[0.129s] -- Install configuration: ""
+[0.130s] -- Execute custom install script
+[0.131s] -- Up-to-date symlink: /home/autodrive_devkit/ros2_laser_scan_matcher/install/ros2_laser_scan_matcher/lib/ros2_laser_scan_matcher/laser_scan_matcher
+[0.131s] -- Up-to-date symlink: /home/autodrive_devkit/ros2_laser_scan_matcher/install/ros2_laser_scan_matcher/share/ament_index/resource_index/package_run_dependencies/ros2_laser_scan_matcher
+[0.132s] -- Up-to-date symlink: /home/autodrive_devkit/ros2_laser_scan_matcher/install/ros2_laser_scan_matcher/share/ament_index/resource_index/parent_prefix_path/ros2_laser_scan_matcher
+[0.132s] -- Up-to-date symlink: /home/autodrive_devkit/ros2_laser_scan_matcher/install/ros2_laser_scan_matcher/share/ros2_laser_scan_matcher/environment/ament_prefix_path.sh
+[0.132s] -- Up-to-date symlink: /home/autodrive_devkit/ros2_laser_scan_matcher/install/ros2_laser_scan_matcher/share/ros2_laser_scan_matcher/environment/ament_prefix_path.dsv
+[0.132s] -- Up-to-date symlink: /home/autodrive_devkit/ros2_laser_scan_matcher/install/ros2_laser_scan_matcher/share/ros2_laser_scan_matcher/environment/path.sh
+[0.132s] -- Up-to-date symlink: /home/autodrive_devkit/ros2_laser_scan_matcher/install/ros2_laser_scan_matcher/share/ros2_laser_scan_matcher/environment/path.dsv
+[0.132s] -- Up-to-date symlink: /home/autodrive_devkit/ros2_laser_scan_matcher/install/ros2_laser_scan_matcher/share/ros2_laser_scan_matcher/local_setup.bash
+[0.132s] -- Up-to-date symlink: /home/autodrive_devkit/ros2_laser_scan_matcher/install/ros2_laser_scan_matcher/share/ros2_laser_scan_matcher/local_setup.sh
+[0.132s] -- Up-to-date symlink: /home/autodrive_devkit/ros2_laser_scan_matcher/install/ros2_laser_scan_matcher/share/ros2_laser_scan_matcher/local_setup.zsh
+[0.132s] -- Up-to-date symlink: /home/autodrive_devkit/ros2_laser_scan_matcher/install/ros2_laser_scan_matcher/share/ros2_laser_scan_matcher/local_setup.dsv
+[0.133s] -- Symlinking: /home/autodrive_devkit/ros2_laser_scan_matcher/install/ros2_laser_scan_matcher/share/ros2_laser_scan_matcher/package.dsv
+[0.139s] -- Up-to-date symlink: /home/autodrive_devkit/ros2_laser_scan_matcher/install/ros2_laser_scan_matcher/share/ament_index/resource_index/packages/ros2_laser_scan_matcher
+[0.139s] -- Up-to-date symlink: /home/autodrive_devkit/ros2_laser_scan_matcher/install/ros2_laser_scan_matcher/share/ros2_laser_scan_matcher/cmake/ros2_laser_scan_matcherConfig.cmake
+[0.140s] -- Up-to-date symlink: /home/autodrive_devkit/ros2_laser_scan_matcher/install/ros2_laser_scan_matcher/share/ros2_laser_scan_matcher/cmake/ros2_laser_scan_matcherConfig-version.cmake
+[0.140s] -- Up-to-date symlink: /home/autodrive_devkit/ros2_laser_scan_matcher/install/ros2_laser_scan_matcher/share/ros2_laser_scan_matcher/package.xml
+[0.141s] Invoked command in '/home/autodrive_devkit/ros2_laser_scan_matcher/build/ros2_laser_scan_matcher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/autodrive_devkit/install/autodrive_roboracer:/opt/ros/humble /usr/bin/cmake --install /home/autodrive_devkit/ros2_laser_scan_matcher/build/ros2_laser_scan_matcher

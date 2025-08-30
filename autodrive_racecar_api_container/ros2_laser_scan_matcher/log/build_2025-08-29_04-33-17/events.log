@@ -1,0 +1,116 @@
+[0.000000] (-) TimerEvent: {}
+[0.000557] (ros2_laser_scan_matcher) JobQueued: {'identifier': 'ros2_laser_scan_matcher', 'dependencies': OrderedDict()}
+[0.000624] (ros2_laser_scan_matcher) JobStarted: {'identifier': 'ros2_laser_scan_matcher'}
+[0.007773] (ros2_laser_scan_matcher) JobProgress: {'identifier': 'ros2_laser_scan_matcher', 'progress': 'cmake'}
+[0.008438] (ros2_laser_scan_matcher) JobProgress: {'identifier': 'ros2_laser_scan_matcher', 'progress': 'build'}
+[0.009182] (ros2_laser_scan_matcher) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/autodrive_devkit/ros2_laser_scan_matcher/build/ros2_laser_scan_matcher', '--', '-j12', '-l12'], 'cwd': '/home/autodrive_devkit/ros2_laser_scan_matcher/build/ros2_laser_scan_matcher', 'env': OrderedDict([('HOSTNAME', 'anshumaan-ubuntu'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib'), ('HOME', '/root'), ('OLDPWD', '/home/autodrive_devkit'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/home/autodrive_devkit/ros2_laser_scan_matcher/install:/home/autodrive_devkit/ros2_laser_scan_matcher/src/ydlidar_ros2_ws/src/ydlidar_ros2_driver/install:/home/autodrive_devkit/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/tmp/runtime-root'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/autodrive_devkit/ros2_laser_scan_matcher/install/ros2_laser_scan_matcher:/home/autodrive_devkit/ros2_laser_scan_matcher/src/ydlidar_ros2_ws/src/ydlidar_ros2_driver/install/ydlidar_ros2_driver:/home/autodrive_devkit/install/autodrive_roboracer:/opt/ros/humble'), ('PWD', '/home/autodrive_devkit/ros2_laser_scan_matcher/build/ros2_laser_scan_matcher'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/home/autodrive_devkit/install/autodrive_roboracer/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/autodrive_devkit/ros2_laser_scan_matcher/install/ros2_laser_scan_matcher:/home/autodrive_devkit/ros2_laser_scan_matcher/src/ydlidar_ros2_ws/src/ydlidar_ros2_driver/install/ydlidar_ros2_driver::/usr/local:/home/autodrive_devkit/install/autodrive_roboracer:/opt/ros/humble')]), 'shell': False}
+[0.063840] (ros2_laser_scan_matcher) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/laser_scan_matcher.dir/src/laser_scan_matcher.cpp.o\x1b[0m\n'}
+[0.099810] (-) TimerEvent: {}
+[0.200067] (-) TimerEvent: {}
+[0.213760] (ros2_laser_scan_matcher) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/autodrive_devkit/ros2_laser_scan_matcher/include/ros2_laser_scan_matcher/laser_scan_matcher.h:47\x1b[m\x1b[K,\n'}
+[0.213921] (ros2_laser_scan_matcher) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/autodrive_devkit/ros2_laser_scan_matcher/src/laser_scan_matcher.cpp:38\x1b[m\x1b[K:\n'}
+[0.213959] (ros2_laser_scan_matcher) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [\x1b[01;35m\x1b[K-Wcpp\x1b[m\x1b[K]\n'}
+[0.213990] (ros2_laser_scan_matcher) StderrLine: {'line': b'   35 | #\x1b[01;35m\x1b[Kwarning\x1b[m\x1b[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead\n'}
+[0.214018] (ros2_laser_scan_matcher) StderrLine: {'line': b'      |  \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[0.300179] (-) TimerEvent: {}
+[0.400468] (-) TimerEvent: {}
+[0.500719] (-) TimerEvent: {}
+[0.601011] (-) TimerEvent: {}
+[0.701294] (-) TimerEvent: {}
+[0.801626] (-) TimerEvent: {}
+[0.901927] (-) TimerEvent: {}
+[1.002214] (-) TimerEvent: {}
+[1.102494] (-) TimerEvent: {}
+[1.202719] (-) TimerEvent: {}
+[1.303015] (-) TimerEvent: {}
+[1.403276] (-) TimerEvent: {}
+[1.503564] (-) TimerEvent: {}
+[1.603985] (-) TimerEvent: {}
+[1.704321] (-) TimerEvent: {}
+[1.804635] (-) TimerEvent: {}
+[1.904905] (-) TimerEvent: {}
+[2.005243] (-) TimerEvent: {}
+[2.105582] (-) TimerEvent: {}
+[2.205841] (-) TimerEvent: {}
+[2.306119] (-) TimerEvent: {}
+[2.406395] (-) TimerEvent: {}
+[2.506767] (-) TimerEvent: {}
+[2.607022] (-) TimerEvent: {}
+[2.707347] (-) TimerEvent: {}
+[2.807695] (-) TimerEvent: {}
+[2.907961] (-) TimerEvent: {}
+[3.008313] (-) TimerEvent: {}
+[3.108567] (-) TimerEvent: {}
+[3.208848] (-) TimerEvent: {}
+[3.309155] (-) TimerEvent: {}
+[3.409456] (-) TimerEvent: {}
+[3.509706] (-) TimerEvent: {}
+[3.609973] (-) TimerEvent: {}
+[3.710244] (-) TimerEvent: {}
+[3.810506] (-) TimerEvent: {}
+[3.910756] (-) TimerEvent: {}
+[4.011017] (-) TimerEvent: {}
+[4.111263] (-) TimerEvent: {}
+[4.211539] (-) TimerEvent: {}
+[4.311833] (-) TimerEvent: {}
+[4.412100] (-) TimerEvent: {}
+[4.512390] (-) TimerEvent: {}
+[4.612640] (-) TimerEvent: {}
+[4.712902] (-) TimerEvent: {}
+[4.813163] (-) TimerEvent: {}
+[4.913423] (-) TimerEvent: {}
+[5.013791] (-) TimerEvent: {}
+[5.114059] (-) TimerEvent: {}
+[5.214355] (-) TimerEvent: {}
+[5.314711] (-) TimerEvent: {}
+[5.414939] (-) TimerEvent: {}
+[5.515183] (-) TimerEvent: {}
+[5.615427] (-) TimerEvent: {}
+[5.715733] (-) TimerEvent: {}
+[5.815970] (-) TimerEvent: {}
+[5.916227] (-) TimerEvent: {}
+[6.016534] (-) TimerEvent: {}
+[6.116801] (-) TimerEvent: {}
+[6.217126] (-) TimerEvent: {}
+[6.317391] (-) TimerEvent: {}
+[6.417714] (-) TimerEvent: {}
+[6.518017] (-) TimerEvent: {}
+[6.618321] (-) TimerEvent: {}
+[6.718625] (-) TimerEvent: {}
+[6.818959] (-) TimerEvent: {}
+[6.919271] (-) TimerEvent: {}
+[7.019535] (-) TimerEvent: {}
+[7.119771] (-) TimerEvent: {}
+[7.220011] (-) TimerEvent: {}
+[7.320281] (-) TimerEvent: {}
+[7.349825] (ros2_laser_scan_matcher) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable laser_scan_matcher\x1b[0m\n'}
+[7.420385] (-) TimerEvent: {}
+[7.520726] (-) TimerEvent: {}
+[7.621042] (-) TimerEvent: {}
+[7.721322] (-) TimerEvent: {}
+[7.785895] (ros2_laser_scan_matcher) StdoutLine: {'line': b'[100%] Built target laser_scan_matcher\n'}
+[7.800269] (ros2_laser_scan_matcher) CommandEnded: {'returncode': 0}
+[7.800607] (ros2_laser_scan_matcher) JobProgress: {'identifier': 'ros2_laser_scan_matcher', 'progress': 'install'}
+[7.806042] (ros2_laser_scan_matcher) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/autodrive_devkit/ros2_laser_scan_matcher/build/ros2_laser_scan_matcher'], 'cwd': '/home/autodrive_devkit/ros2_laser_scan_matcher/build/ros2_laser_scan_matcher', 'env': OrderedDict([('HOSTNAME', 'anshumaan-ubuntu'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib'), ('HOME', '/root'), ('OLDPWD', '/home/autodrive_devkit'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/home/autodrive_devkit/ros2_laser_scan_matcher/install:/home/autodrive_devkit/ros2_laser_scan_matcher/src/ydlidar_ros2_ws/src/ydlidar_ros2_driver/install:/home/autodrive_devkit/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/tmp/runtime-root'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/autodrive_devkit/ros2_laser_scan_matcher/install/ros2_laser_scan_matcher:/home/autodrive_devkit/ros2_laser_scan_matcher/src/ydlidar_ros2_ws/src/ydlidar_ros2_driver/install/ydlidar_ros2_driver:/home/autodrive_devkit/install/autodrive_roboracer:/opt/ros/humble'), ('PWD', '/home/autodrive_devkit/ros2_laser_scan_matcher/build/ros2_laser_scan_matcher'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/home/autodrive_devkit/install/autodrive_roboracer/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/autodrive_devkit/ros2_laser_scan_matcher/install/ros2_laser_scan_matcher:/home/autodrive_devkit/ros2_laser_scan_matcher/src/ydlidar_ros2_ws/src/ydlidar_ros2_driver/install/ydlidar_ros2_driver::/usr/local:/home/autodrive_devkit/install/autodrive_roboracer:/opt/ros/humble')]), 'shell': False}
+[7.812041] (ros2_laser_scan_matcher) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.812328] (ros2_laser_scan_matcher) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[7.812553] (ros2_laser_scan_matcher) StdoutLine: {'line': b'-- Up-to-date symlink: /home/autodrive_devkit/ros2_laser_scan_matcher/install/ros2_laser_scan_matcher/lib/ros2_laser_scan_matcher/laser_scan_matcher\n'}
+[7.812655] (ros2_laser_scan_matcher) StdoutLine: {'line': b'-- Up-to-date symlink: /home/autodrive_devkit/ros2_laser_scan_matcher/install/ros2_laser_scan_matcher/share/ament_index/resource_index/package_run_dependencies/ros2_laser_scan_matcher\n'}
+[7.812777] (ros2_laser_scan_matcher) StdoutLine: {'line': b'-- Up-to-date symlink: /home/autodrive_devkit/ros2_laser_scan_matcher/install/ros2_laser_scan_matcher/share/ament_index/resource_index/parent_prefix_path/ros2_laser_scan_matcher\n'}
+[7.812893] (ros2_laser_scan_matcher) StdoutLine: {'line': b'-- Up-to-date symlink: /home/autodrive_devkit/ros2_laser_scan_matcher/install/ros2_laser_scan_matcher/share/ros2_laser_scan_matcher/environment/ament_prefix_path.sh\n'}
+[7.813049] (ros2_laser_scan_matcher) StdoutLine: {'line': b'-- Up-to-date symlink: /home/autodrive_devkit/ros2_laser_scan_matcher/install/ros2_laser_scan_matcher/share/ros2_laser_scan_matcher/environment/ament_prefix_path.dsv\n'}
+[7.813128] (ros2_laser_scan_matcher) StdoutLine: {'line': b'-- Up-to-date symlink: /home/autodrive_devkit/ros2_laser_scan_matcher/install/ros2_laser_scan_matcher/share/ros2_laser_scan_matcher/environment/path.sh\n'}
+[7.813214] (ros2_laser_scan_matcher) StdoutLine: {'line': b'-- Up-to-date symlink: /home/autodrive_devkit/ros2_laser_scan_matcher/install/ros2_laser_scan_matcher/share/ros2_laser_scan_matcher/environment/path.dsv\n'}
+[7.813317] (ros2_laser_scan_matcher) StdoutLine: {'line': b'-- Up-to-date symlink: /home/autodrive_devkit/ros2_laser_scan_matcher/install/ros2_laser_scan_matcher/share/ros2_laser_scan_matcher/local_setup.bash\n'}
+[7.813416] (ros2_laser_scan_matcher) StdoutLine: {'line': b'-- Up-to-date symlink: /home/autodrive_devkit/ros2_laser_scan_matcher/install/ros2_laser_scan_matcher/share/ros2_laser_scan_matcher/local_setup.sh\n'}
+[7.813521] (ros2_laser_scan_matcher) StdoutLine: {'line': b'-- Up-to-date symlink: /home/autodrive_devkit/ros2_laser_scan_matcher/install/ros2_laser_scan_matcher/share/ros2_laser_scan_matcher/local_setup.zsh\n'}
+[7.813624] (ros2_laser_scan_matcher) StdoutLine: {'line': b'-- Up-to-date symlink: /home/autodrive_devkit/ros2_laser_scan_matcher/install/ros2_laser_scan_matcher/share/ros2_laser_scan_matcher/local_setup.dsv\n'}
+[7.813719] (ros2_laser_scan_matcher) StdoutLine: {'line': b'-- Symlinking: /home/autodrive_devkit/ros2_laser_scan_matcher/install/ros2_laser_scan_matcher/share/ros2_laser_scan_matcher/package.dsv\n'}
+[7.821416] (-) TimerEvent: {}
+[7.821734] (ros2_laser_scan_matcher) StdoutLine: {'line': b'-- Up-to-date symlink: /home/autodrive_devkit/ros2_laser_scan_matcher/install/ros2_laser_scan_matcher/share/ament_index/resource_index/packages/ros2_laser_scan_matcher\n'}
+[7.821906] (ros2_laser_scan_matcher) StdoutLine: {'line': b'-- Up-to-date symlink: /home/autodrive_devkit/ros2_laser_scan_matcher/install/ros2_laser_scan_matcher/share/ros2_laser_scan_matcher/cmake/ros2_laser_scan_matcherConfig.cmake\n'}
+[7.821971] (ros2_laser_scan_matcher) StdoutLine: {'line': b'-- Up-to-date symlink: /home/autodrive_devkit/ros2_laser_scan_matcher/install/ros2_laser_scan_matcher/share/ros2_laser_scan_matcher/cmake/ros2_laser_scan_matcherConfig-version.cmake\n'}
+[7.822033] (ros2_laser_scan_matcher) StdoutLine: {'line': b'-- Up-to-date symlink: /home/autodrive_devkit/ros2_laser_scan_matcher/install/ros2_laser_scan_matcher/share/ros2_laser_scan_matcher/package.xml\n'}
+[7.823444] (ros2_laser_scan_matcher) CommandEnded: {'returncode': 0}
+[7.834229] (ros2_laser_scan_matcher) JobEnded: {'identifier': 'ros2_laser_scan_matcher', 'rc': 0}
+[7.834746] (-) EventReactorShutdown: {}

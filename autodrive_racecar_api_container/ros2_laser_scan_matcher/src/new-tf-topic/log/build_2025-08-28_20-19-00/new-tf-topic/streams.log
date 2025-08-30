@@ -1,0 +1,27 @@
+[0.009s] Invoking command in '/home/autodrive_devkit/ros2_laser_scan_matcher/src/new-tf-topic/build/new-tf-topic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/autodrive_devkit/install/autodrive_roboracer:/opt/ros/humble /usr/bin/cmake --build /home/autodrive_devkit/ros2_laser_scan_matcher/src/new-tf-topic/build/new-tf-topic -- -j12 -l12
+[0.045s] [35m[1mConsolidate compiler generated dependencies of target frame_publisher_node[0m
+[0.057s] [ 50%] [32mBuilding CXX object CMakeFiles/frame_publisher_node.dir/src/frame_publisher_node.cpp.o[0m
+[2.812s] [100%] [32m[1mLinking CXX executable frame_publisher_node[0m
+[2.952s] [100%] Built target frame_publisher_node
+[2.960s] Invoked command in '/home/autodrive_devkit/ros2_laser_scan_matcher/src/new-tf-topic/build/new-tf-topic' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/autodrive_devkit/install/autodrive_roboracer:/opt/ros/humble /usr/bin/cmake --build /home/autodrive_devkit/ros2_laser_scan_matcher/src/new-tf-topic/build/new-tf-topic -- -j12 -l12
+[2.967s] Invoking command in '/home/autodrive_devkit/ros2_laser_scan_matcher/src/new-tf-topic/build/new-tf-topic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/autodrive_devkit/install/autodrive_roboracer:/opt/ros/humble /usr/bin/cmake --install /home/autodrive_devkit/ros2_laser_scan_matcher/src/new-tf-topic/build/new-tf-topic
+[2.973s] -- Install configuration: ""
+[2.973s] -- Execute custom install script
+[2.973s] -- Up-to-date symlink: /home/autodrive_devkit/ros2_laser_scan_matcher/src/new-tf-topic/install/new-tf-topic/lib/new-tf-topic/frame_publisher_node
+[2.973s] -- Up-to-date symlink: /home/autodrive_devkit/ros2_laser_scan_matcher/src/new-tf-topic/install/new-tf-topic/share/new-tf-topic/launch/tf_publisher_launch.py
+[2.973s] -- Up-to-date symlink: /home/autodrive_devkit/ros2_laser_scan_matcher/src/new-tf-topic/install/new-tf-topic/share/ament_index/resource_index/package_run_dependencies/new-tf-topic
+[2.974s] -- Up-to-date symlink: /home/autodrive_devkit/ros2_laser_scan_matcher/src/new-tf-topic/install/new-tf-topic/share/ament_index/resource_index/parent_prefix_path/new-tf-topic
+[2.974s] -- Up-to-date symlink: /home/autodrive_devkit/ros2_laser_scan_matcher/src/new-tf-topic/install/new-tf-topic/share/new-tf-topic/environment/ament_prefix_path.sh
+[2.974s] -- Up-to-date symlink: /home/autodrive_devkit/ros2_laser_scan_matcher/src/new-tf-topic/install/new-tf-topic/share/new-tf-topic/environment/ament_prefix_path.dsv
+[2.974s] -- Up-to-date symlink: /home/autodrive_devkit/ros2_laser_scan_matcher/src/new-tf-topic/install/new-tf-topic/share/new-tf-topic/environment/path.sh
+[2.974s] -- Up-to-date symlink: /home/autodrive_devkit/ros2_laser_scan_matcher/src/new-tf-topic/install/new-tf-topic/share/new-tf-topic/environment/path.dsv
+[2.974s] -- Up-to-date symlink: /home/autodrive_devkit/ros2_laser_scan_matcher/src/new-tf-topic/install/new-tf-topic/share/new-tf-topic/local_setup.bash
+[2.974s] -- Up-to-date symlink: /home/autodrive_devkit/ros2_laser_scan_matcher/src/new-tf-topic/install/new-tf-topic/share/new-tf-topic/local_setup.sh
+[2.974s] -- Up-to-date symlink: /home/autodrive_devkit/ros2_laser_scan_matcher/src/new-tf-topic/install/new-tf-topic/share/new-tf-topic/local_setup.zsh
+[2.974s] -- Up-to-date symlink: /home/autodrive_devkit/ros2_laser_scan_matcher/src/new-tf-topic/install/new-tf-topic/share/new-tf-topic/local_setup.dsv
+[2.974s] -- Symlinking: /home/autodrive_devkit/ros2_laser_scan_matcher/src/new-tf-topic/install/new-tf-topic/share/new-tf-topic/package.dsv
+[2.981s] -- Up-to-date symlink: /home/autodrive_devkit/ros2_laser_scan_matcher/src/new-tf-topic/install/new-tf-topic/share/ament_index/resource_index/packages/new-tf-topic
+[2.982s] -- Up-to-date symlink: /home/autodrive_devkit/ros2_laser_scan_matcher/src/new-tf-topic/install/new-tf-topic/share/new-tf-topic/cmake/new-tf-topicConfig.cmake
+[2.982s] -- Up-to-date symlink: /home/autodrive_devkit/ros2_laser_scan_matcher/src/new-tf-topic/install/new-tf-topic/share/new-tf-topic/cmake/new-tf-topicConfig-version.cmake
+[2.982s] -- Up-to-date symlink: /home/autodrive_devkit/ros2_laser_scan_matcher/src/new-tf-topic/install/new-tf-topic/share/new-tf-topic/package.xml
+[2.983s] Invoked command in '/home/autodrive_devkit/ros2_laser_scan_matcher/src/new-tf-topic/build/new-tf-topic' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/autodrive_devkit/install/autodrive_roboracer:/opt/ros/humble /usr/bin/cmake --install /home/autodrive_devkit/ros2_laser_scan_matcher/src/new-tf-topic/build/new-tf-topic
